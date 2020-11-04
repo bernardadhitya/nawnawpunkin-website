@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.responsive-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#section-1 {
+    text-align: center;
+    justify-content: center;
+    background-image: url("../image/about-me-background.png");
+}
+
+#section-2 {
+    text-align: center;
+    justify-content: center;
+    background-color: #b25e55;
+    padding: 20px;
+}
+
+#section-3 {
+    text-align: center;
+    justify-content: center;
+    background-image: url("../image/footer-background.png");
+}
+
+.section-2-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.section-3-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px !important;
+}
+
+.section-3-row {
+    text-align: center !important;
+    justify-content: center !important;
+    display: inline-flex !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .section-1-text {
+        padding-top: 150px !important;
+        padding-bottom: 150px !important;
+    }
+    .section-3-card {
+        max-width: 800px;
+    }
+    .section-3-card-text {
+        padding-top: 40px !important;
+    }
+    .section-3-footer-text {
+        text-align: left;
+    }
+}
